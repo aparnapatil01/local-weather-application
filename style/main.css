@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  background: #161616;
+}
+
+#weather-app #weather-details {
+  text-align: center;
+  color: white;
+}
+
+#weather-app h1 {
+  font-size: 5em;
+}
+
+#weather-app .heading {
+  margin-top: 5px;
+}
+
+#weather-app #cloud-glyphicon {
+  position: relative;
+  top: 15px;
+}
+
+#weather-app #temp-unit {
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #006dcc;
+}
+
+#weather-app .temp:after {
+  content: '°';
+}
+
+#weather-app #temp-unit, #weather-app .temp {
+  font-size: 25px;
+}
+
+#weather-app .icon img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
